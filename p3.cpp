@@ -16,12 +16,7 @@ int main()
 			arr[arrCounter] = i;
 			arrCounter++;
 			number /= i;
-			
-			if (number % i == 0)
-				continue;
-				
-			else
-				i++;
+			continue;
 		}
 		else
 			i++;
